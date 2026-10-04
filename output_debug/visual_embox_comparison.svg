@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 500" width="980" height="500">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="20" y="35" font-size="20" font-family="sans-serif" font-weight="bold">ZhengJi Song</text><g transform="translate(40, 50)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 1 (w=1000)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.14, -0.14)">
+    <path d="M81 747 90 718H899C913 718 923 723 926 734C889 767 830 811 830 811L779 747Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(220, 50)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 2 (w=1000)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.14, -0.14)">
+    <path d="M81 747 90 718H474V1H542V718H899C913 718 923 723 926 734C889 767 830 811 830 811L779 747Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(400, 50)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 3 (w=1000)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.14, -0.14)">
+    <path d="M81 747 90 718H474V1H542V371H851C865 371 874 376 877 386C842 419 785 463 785 463L734 400H542V718H899C913 718 923 723 926 734C889 767 830 811 830 811L779 747Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(580, 50)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 4 (w=1000)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.14, -0.14)">
+    <path d="M81 747 90 718H474V1H542V371H851C865 371 874 376 877 386C842 419 785 463 785 463L734 400H542V718H899C913 718 923 723 926 734C889 767 830 811 830 811L779 747ZM265 1V468C289 473 298 483 301 497L197 508V1Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(760, 50)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 5 (w=1000)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.14, -0.14)">
+    <path d="M814 1H542V371H851C865 371 874 376 877 386C842 419 785 463 785 463L734 400H542V718H899C913 718 923 723 926 734C889 767 830 811 830 811L779 747H81L90 718H474V1H265V468C289 473 298 483 301 497L197 508V1H43L51 -29H935C949 -29 958 -24 961 -13C925 21 866 65 866 65Z" fill="#1e293b"/>
+  </g>
+</g><text x="20" y="255" font-size="20" font-family="sans-serif" font-weight="bold">ZhengJi Kai</text><g transform="translate(40, 270)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 1 (w=1024)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.13671875, -0.13671875)">
+    <path d="M149 545Q133 543 119 543H110Q93 543 75 548Q57 554 52 561Q49 565 49 569Q49 572 50 574Q53 579 67 581L89 584L129 588Q147 590 230 603Q313 616 337 622Q361 626 395 635Q428 644 443 649Q459 654 465 654Q474 654 498 646Q521 638 528 631Q534 624 535 620V615Q535 614 527 608Q521 602 503 599L463 590Q431 584 361 572L307 564Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(220, 270)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 2 (w=1024)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.13671875, -0.13671875)">
+    <path d="M149 545Q133 543 119 543H110Q93 543 75 548Q57 554 52 561Q49 565 49 569Q49 572 50 574Q53 579 67 581L89 584L129 588Q147 590 230 603Q313 616 337 622Q361 626 395 635Q428 644 443 649Q459 654 465 654Q474 654 498 646Q521 638 528 631Q534 624 535 620V615Q535 614 527 608Q521 602 503 599L463 590Q431 584 361 572L307 564Q329 556 339 547Q349 539 349 534Q349 528 346 516Q343 506 339 482Q336 458 336 444L333 324Q402 292 382 292H376Q361 293 353 296L333 300L330 64L271 60L267 460Q267 486 263 508Q259 530 251 542L243 554Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(400, 270)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 3 (w=1024)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.13671875, -0.13671875)">
+    <path d="M149 545Q133 543 119 543H110Q93 543 75 548Q57 554 52 561Q49 565 49 569Q49 572 50 574Q53 579 67 581L89 584L129 588Q147 590 230 603Q313 616 337 622Q361 626 395 635Q428 644 443 649Q459 654 465 654Q474 654 498 646Q521 638 528 631Q534 624 535 620V615Q535 614 527 608Q521 602 503 599L463 590Q431 584 361 572L307 564Q329 556 339 547Q349 539 349 534Q349 528 346 516Q343 506 339 482Q336 458 336 444L333 324L404 342L445 353Q482 362 496 368Q509 373 515 374Q524 374 545 367Q567 360 577 353Q587 345 587 339Q586 330 578 327Q569 324 561 322L538 316Q531 314 477 306L431 297Q402 292 382 292H376Q361 293 353 296L333 300L330 64L271 60L267 460Q267 486 263 508Q259 530 251 542L243 554Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(580, 270)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 4 (w=1024)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.13671875, -0.13671875)">
+    <path d="M152 545Q136 543 122 543H113Q96 543 78 548Q60 554 55 561Q52 565 52 569Q52 572 53 574Q56 579 70 581L92 584L132 588Q150 590 233 603Q316 616 340 622Q364 626 398 635Q431 644 446 649Q462 654 468 654Q477 654 501 646Q524 638 531 631Q537 624 538 620V615Q538 614 530 608Q524 602 506 599L466 590Q434 584 364 572L310 564Q332 556 342 547Q352 539 352 534Q352 528 349 516Q346 506 342 482Q339 458 339 444L336 324L407 342L448 353Q485 362 499 368Q512 373 518 374Q527 374 548 367Q570 360 580 353Q590 345 590 339Q589 330 581 327Q572 324 564 322L541 316Q534 314 480 306L434 297Q405 292 385 292H379Q364 293 356 296L336 300L333 64L274 60L270 460Q270 486 266 508Q262 530 254 542L246 554ZM74 38 70 254Q70 264 68 291Q65 318 63 328Q61 338 55 349Q50 360 49 364Q49 368 52 373Q55 377 64 377Q68 377 73 376Q86 375 102 372Q118 368 130 361Q143 354 144 348Q144 343 138 326Q136 321 134 303L133 292Q132 282 132 248L129 47Z" fill="#1e293b"/>
+  </g>
+</g><g transform="translate(760, 270)">
+  <!-- em box -->
+  <rect x="0" y="0" width="140" height="140" fill="#f0f4f8" stroke="#cbd5e1" stroke-width="1"/>
+  <!-- center line -->
+  <line x1="70" y1="0" x2="70" y2="140" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <line x1="0" y1="70" x2="140" y2="70" stroke="#fca5a5" stroke-dasharray="2,2"/>
+  <text x="70" y="-5" font-size="12" text-anchor="middle" fill="#64748b">Char 5 (w=1024)</text>
+  <!-- glyph scaled to 140px (140/upm) -->
+  <g transform="translate(0, 115) scale(0.13671875, -0.13671875)">
+    <path d="M336 47 481 60 477 460Q477 486 473 508Q469 530 461 542L453 554L359 545Q343 543 329 543H320Q303 543 285 548Q267 554 262 561Q259 565 259 569Q259 572 260 574Q263 579 277 581L299 584L339 588Q357 590 440 603Q523 616 547 622Q571 626 605 635Q638 644 653 649Q669 654 675 654Q684 654 708 646Q731 638 738 631Q744 624 745 620V615Q745 614 737 608Q731 602 713 599L673 590Q641 584 571 572L517 564Q539 556 549 547Q559 539 559 534Q559 528 556 516Q553 506 549 482Q546 458 546 444L543 324L614 342L655 353Q692 362 706 368Q719 373 725 374Q734 374 755 367Q777 360 787 353Q797 345 797 339Q796 330 788 327Q779 324 771 322L748 316Q741 314 687 306L641 297Q612 292 592 292H586Q571 293 563 296L543 300L540 64L664 74Q681 76 701 78L777 88Q809 92 832 97Q855 102 863 102Q875 102 899 94Q923 86 942 77Q960 68 968 60Q975 51 975 45V44Q974 38 966 34Q963 33 955 33H947L907 31L817 30L689 28Q619 28 587 26Q557 24 493 19Q431 14 374 8Q317 2 277 -4L231 -13Q188 -21 167 -27Q150 -33 140 -33H138Q129 -33 113 -29Q98 -24 79 -15Q59 -5 54 1Q49 6 49 10Q50 14 53 17Q57 20 75 22L112 24L205 30L281 38L277 254Q277 264 275 291Q272 318 270 328Q268 338 262 349Q257 360 256 364Q256 368 259 373Q262 377 271 377Q275 377 280 376Q293 375 309 372Q325 368 337 361Q350 354 351 348Q351 343 345 326Q343 321 341 303L340 292Q339 282 339 248Z" fill="#1e293b"/>
+  </g>
+</g>
+</svg>

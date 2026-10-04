@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" width="1100" height="220">
+<g transform="translate(0, 0)">
+  <rect x="0" y="0" width="200" height="200" fill="#f8f9fa" stroke="#ccc"/>
+  <text x="100" y="30" font-size="20" text-anchor="middle" font-family="sans-serif">Stroke 1</text>
+  <g transform="translate(10, 170) scale(0.18, -0.18)">
+    <path d="M81 747 L90 718 L899 718 C913 718 923 723 926 734 C889 767 830 811 830 811 L779 747 Z" fill="#222"/>
+  </g>
+</g><g transform="translate(220, 0)">
+  <rect x="0" y="0" width="200" height="200" fill="#f8f9fa" stroke="#ccc"/>
+  <text x="100" y="30" font-size="20" text-anchor="middle" font-family="sans-serif">Stroke 2</text>
+  <g transform="translate(10, 170) scale(0.18, -0.18)">
+    <path d="M81 747 L90 718 L474 718 L474 1 L542 1 L542 718 L899 718 C913 718 923 723 926 734 C889 767 830 811 830 811 L779 747 Z" fill="#222"/>
+  </g>
+</g><g transform="translate(440, 0)">
+  <rect x="0" y="0" width="200" height="200" fill="#f8f9fa" stroke="#ccc"/>
+  <text x="100" y="30" font-size="20" text-anchor="middle" font-family="sans-serif">Stroke 3</text>
+  <g transform="translate(10, 170) scale(0.18, -0.18)">
+    <path d="M81 747 L90 718 L474 718 L474 1 L542 1 L542 371 L851 371 C865 371 874 376 877 386 C842 419 785 463 785 463 L734 400 L542 400 L542 718 L899 718 C913 718 923 723 926 734 C889 767 830 811 830 811 L779 747 Z" fill="#222"/>
+  </g>
+</g><g transform="translate(660, 0)">
+  <rect x="0" y="0" width="200" height="200" fill="#f8f9fa" stroke="#ccc"/>
+  <text x="100" y="30" font-size="20" text-anchor="middle" font-family="sans-serif">Stroke 4</text>
+  <g transform="translate(10, 170) scale(0.18, -0.18)">
+    <path d="M81 747 L90 718 L474 718 L474 1 L542 1 L542 371 L851 371 C865 371 874 376 877 386 C842 419 785 463 785 463 L734 400 L542 400 L542 718 L899 718 C913 718 923 723 926 734 C889 767 830 811 830 811 L779 747 Z M265 1 L265 468 C289 473 298 483 301 497 L197 508 L197 1 Z" fill="#222"/>
+  </g>
+</g><g transform="translate(880, 0)">
+  <rect x="0" y="0" width="200" height="200" fill="#f8f9fa" stroke="#ccc"/>
+  <text x="100" y="30" font-size="20" text-anchor="middle" font-family="sans-serif">Stroke 5</text>
+  <g transform="translate(10, 170) scale(0.18, -0.18)">
+    <path d="M814 1 L542 1 L542 371 L851 371 C865 371 874 376 877 386 C842 419 785 463 785 463 L734 400 L542 400 L542 718 L899 718 C913 718 923 723 926 734 C889 767 830 811 830 811 L779 747 L81 747 L90 718 L474 718 L474 1 L265 1 L265 468 C289 473 298 483 301 497 L197 508 L197 1 L43 1 L51 -29 L935 -29 C949 -29 958 -24 961 -13 C925 21 866 65 866 65 Z" fill="#222"/>
+  </g>
+</g>
+</svg>

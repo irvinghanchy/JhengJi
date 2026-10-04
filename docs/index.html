@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>正記體 JhengJi Fonts - Ideographic Tally Marks 正字計數符號字型</title>
+  <meta name="description"
+    content="專為「正字計數法」打造的極致輕量開源字型，支援直接輸入 12345 或 Unicode Ideographic Tally Marks (U+1D372~U+1D376)。提供正記體-宋體（7種字重）與正記體-楷體。">
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-bar">
+      <a href="#" class="brand">
+        <div class="brand-icon">5</div>
+        <div>
+          <div class="brand-title">正記體 JhengJi Font</div>
+        </div>
+      </a>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="切換導覽選單" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-overlay" id="navOverlay"></div>
+      <nav id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#about">簡介</a></li>
+          <li><a href="#matrix">筆劃對照</a></li>
+          <li><a href="#playground">線上體驗</a></li>
+          <li><a href="#counter">動態計數器</a></li>
+          <li><a href="#recommended">推薦字型</a></li>
+          <li><a href="#download">字型下載</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-tag">🌟 開源正字計數專用字型</div>
+      <h1 class="hero-title">正字記數，<span>化為字型</span></h1>
+      <p class="hero-desc">
+        傳統投票開票、統計與計數時最熟悉的「正」字五畫，現在能以極致輕量的專用 Webfont 完美呈現！
+        支援鍵盤直接輸入 <code>1 2 3 4 5</code>，亦支援 Unicode 算籌與計數標準字符 <code class="noto-symbols">𝍲 𝍳 𝍴 𝍵 𝍶</code>。
+      </p>
+
+      <div class="hero-demo-card">
+        <div class="tally-display-grid">
+          <div class="tally-box">
+            <div class="tally-glyph" style="font-family: 'JhengJi Song', serif; font-weight: 600;">1</div>
+            <div class="tally-label">1 畫 · <span class="noto-symbols">𝍲</span></div>
+          </div>
+          <div class="tally-box">
+            <div class="tally-glyph" style="font-family: 'JhengJi Song', serif; font-weight: 600;">2</div>
+            <div class="tally-label">2 畫 · <span class="noto-symbols">𝍳</span></div>
+          </div>
+          <div class="tally-box">
+            <div class="tally-glyph" style="font-family: 'JhengJi Song', serif; font-weight: 600;">3</div>
+            <div class="tally-label">3 畫 · <span class="noto-symbols">𝍴</span></div>
+          </div>
+          <div class="tally-box">
+            <div class="tally-glyph" style="font-family: 'JhengJi Song', serif; font-weight: 600;">4</div>
+            <div class="tally-label">4 畫 · <span class="noto-symbols">𝍵</span></div>
+          </div>
+          <div class="tally-box">
+            <div class="tally-glyph" style="font-family: 'JhengJi Song', serif; font-weight: 600;">5</div>
+            <div class="tally-label">5 畫 · <span class="noto-symbols">𝍶</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#playground" class="btn btn-primary">立即體驗字型</a>
+        <a href="#download" class="btn btn-outline">下載字型檔案</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">什麼是 Ideographic Tally Marks？</h2>
+        <p class="section-desc">
+          在東亞漢字文化圈中，人們習慣使用漢字「正」的五個筆劃來進行計數（每滿五劃形成一個完整的正字）。
+          Unicode 11.0 正式將此計數法納入「算籌數字」區塊（Counting Rod Numerals, U+1D360–U+1D37F）。
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">⌨️</div>
+          <h3 class="feature-heading">雙模輸入支援</h3>
+          <p class="feature-text">
+            無需安裝複雜的輸入法或費力複製 SMP（第一輔助平面）罕見 Unicode。在日常情境下，只要套用本字型，<span class="highlighter">直接鍵入數字 <code>1</code>、<code>2</code>、<code>3</code>、<code>4</code>、<code>5</code></span> 即會直接呈現為正字的一至五筆劃！
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-heading">極致輕量化 (1.1 ~ 1.3 KB)</h3>
+          <p class="feature-text">
+            經過精準的字元子集裁剪，除了 10 個核心計數字符與空格外，清除其餘數萬漢字。單個 WOFF2 檔案<span class="highlighter">僅約 1 KB</span>，網頁載入瞬間完成，完全無懼頻寬壓力。
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon">🎨</div>
+          <h3 class="feature-heading">全字重宋體 + 楷書</h3>
+          <p class="feature-text">
+            提供由<span class="highlighter">思源宋體</span>精緻剖析的 7 種字重（極細 ExtraLight 至 特黑 Black），以及由<span class="highlighter">全字庫正楷體</span>重構的「正記體-楷體」，滿足印刷、海報、開票圖表等各式視覺設計需求。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Glyph Matrix Table Section -->
+  <section id="matrix" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">筆劃對照與字符編碼表</h2>
+        <p class="section-desc">
+          本字型提供的五種正字進程符號，對應的筆劃、鍵盤快捷鍵與 Unicode 標準代碼點如下：
+        </p>
+      </div>
+
+      <div class="table-scroll-hint">👈 左右滑動以檢視完整字符對照表 👉</div>
+      <div class="matrix-card">
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>筆劃序</th>
+                <th>筆劃名稱</th>
+                <th>鍵盤快捷</th>
+                <th>Unicode 代碼</th>
+                <th>Unicode 符號</th>
+                <th>正記體-宋體 (預覽)</th>
+                <th>正記體-楷體 (預覽)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>第 1 劃</strong></td>
+                <td>首橫</td>
+                <td><span class="code-pill">1</span></td>
+                <td><span class="code-pill">U+1D372</span></td>
+                <td><span class="noto-symbols">𝍲</span></td>
+                <td><span class="font-preview-song">1</span></td>
+                <td><span class="font-preview-kai">1</span></td>
+              </tr>
+              <tr>
+                <td><strong>第 2 劃</strong></td>
+                <td>首橫 + 中豎 (丅)</td>
+                <td><span class="code-pill">2</span></td>
+                <td><span class="code-pill">U+1D373</span></td>
+                <td><span class="noto-symbols">𝍳</span></td>
+                <td><span class="font-preview-song">2</span></td>
+                <td><span class="font-preview-kai">2</span></td>
+              </tr>
+              <tr>
+                <td><strong>第 3 劃</strong></td>
+                <td>首橫 + 中豎 + 中橫</td>
+                <td><span class="code-pill">3</span></td>
+                <td><span class="code-pill">U+1D374</span></td>
+                <td><span class="noto-symbols">𝍴</span></td>
+                <td><span class="font-preview-song">3</span></td>
+                <td><span class="font-preview-kai">3</span></td>
+              </tr>
+              <tr>
+                <td><strong>第 4 劃</strong></td>
+                <td>首橫 + 中豎 + 中橫 + 左豎</td>
+                <td><span class="code-pill">4</span></td>
+                <td><span class="code-pill">U+1D375</span></td>
+                <td><span class="noto-symbols">𝍵</span></td>
+                <td><span class="font-preview-song">4</span></td>
+                <td><span class="font-preview-kai">4</span></td>
+              </tr>
+              <tr>
+                <td><strong>第 5 劃</strong></td>
+                <td>完整「正」字（加底橫）</td>
+                <td><span class="code-pill">5</span> 或 <span class="code-pill">正</span></td>
+                <td><span class="code-pill">U+1D376</span> / <span class="code-pill">U+6B63</span></td>
+                <td><span class="noto-symbols">𝍶</span> / 正</td>
+                <td><span class="font-preview-song">5</span></td>
+                <td><span class="font-preview-kai">5</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Playground Section -->
+  <section id="playground" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">線上互動體驗區 (Playground)</h2>
+        <p class="section-desc">
+          在下方輸入框鍵入 <code>1 2 3 4 5</code> 或 Unicode 符號，即時預覽不同字型與字重下的呈現效果。
+        </p>
+      </div>
+
+      <div class="playground-grid">
+        <!-- Controls -->
+        <div class="control-panel">
+          <div class="control-group">
+            <label class="control-label" for="fontSelect">選擇字型</label>
+            <select id="fontSelect" class="select-input">
+              <option value="song" selected>正記體-宋體 (JhengJi Song)</option>
+              <option value="kai">正記體-楷體 (JhengJi Kai)</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="weightSelect">字重 (宋體)</label>
+            <select id="weightSelect" class="select-input">
+              <option value="200">極細 ExtraLight (200)</option>
+              <option value="300">細體 Light (300)</option>
+              <option value="400">常規 Regular (400)</option>
+              <option value="500">中黑 Medium (500)</option>
+              <option value="600" selected>半粗 SemiBold (600)</option>
+              <option value="700">粗體 Bold (700)</option>
+              <option value="900">特黑 Black (900)</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label class="control-label" for="sizeSlider">字型大小: <span id="sizeValue">48px</span></label>
+            <input type="range" id="sizeSlider" class="range-input" min="20" max="110" value="48">
+          </div>
+
+          <div class="control-group">
+            <label class="control-label">常用快速範例</label>
+            <div class="quick-samples">
+              <button class="sample-chip" data-sample="12345">1 至 5 筆順</button>
+              <button class="sample-chip" data-sample="5553">開票記數 (18票)</button>
+              <button class="sample-chip" data-sample="55555552">大規模統計 (37票)</button>
+              <button class="sample-chip" data-sample="𝍲𝍳𝍴𝍵𝍶">Unicode 原生字 (<span
+                  class="noto-symbols">𝍲𝍳𝍴𝍵𝍶</span>)</button>
+              <button class="sample-chip" data-sample="5555正正正">5、正混合</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Preview Area -->
+        <div class="preview-board">
+          <div class="preview-toolbar">
+            <span>輸入區（支援 1~5、<span class="noto-symbols">𝍲~𝍶</span>、正）</span>
+            <span>字元數: <span id="charCount">0</span></span>
+          </div>
+          <textarea id="previewEditor" class="preview-editor" spellcheck="false">5553</textarea>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Tally Counter Section -->
+  <section id="counter" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">動態正字計數器小工具</h2>
+        <p class="section-desc">
+          點擊下方按鈕累加票數或次數，計數器會自動以五進位轉換為正字畫記，體驗實時劃記的流暢感！
+        </p>
+      </div>
+
+      <div class="counter-card">
+        <div class="counter-value-num">
+          目前累計數值：<strong id="countNum" style="color: var(--primary); font-size: 28px;">18</strong>
+        </div>
+
+        <div id="tallyOutput" class="counter-tally-display">
+          5553
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <label style="font-size: 14px; color: var(--text-muted); margin-right: 8px;">顯示字型：</label>
+          <select id="counterFontSelect" class="select-input" style="width: auto; display: inline-block;">
+            <option value="song" selected>正記體-宋體 (SemiBold)</option>
+            <option value="kai">正記體-楷體 (Regular)</option>
+          </select>
+        </div>
+
+        <div class="counter-btns">
+          <button id="btnPlus1" class="btn btn-primary">+1</button>
+          <button id="btnPlus5" class="btn btn-outline">+5</button>
+          <button id="btnReset" class="btn btn-outline" style="color: #6b7280;">重設歸零</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommended Fonts Section -->
+  <section id="recommended" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">相關推薦字型</h2>
+        <p class="section-desc">
+          如果你在尋找更多計數符號或特定風格的字型支援，推薦以下開源優秀專案：
+        </p>
+      </div>
+
+      <div class="recommend-grid">
+        <div class="recommend-card">
+          <div>
+            <h3>Google Noto Sans Symbols 2</h3>
+            <p>
+              Google 官方開源的廣泛符號字體，涵蓋完整的 Unicode 算籌數字（Counting Rod Numerals）區塊，在各作業系統與瀏覽器中具有極高的通用相容性。
+            </p>
+          </div>
+          <a href="https://fonts.google.com/noto/specimen/Noto+Sans+Symbols+2" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline">
+            前往 Google Fonts ↗
+          </a>
+        </div>
+
+        <div class="recommend-card">
+          <div>
+            <h3>Huahua画划 - 计数符号字体 Tally Mark Font</h3>
+            <p>
+              一款專門針對各國計數符號開發的專案，除支援傳統「正」字計數外，還支援西式五槓劃線計數、方格計數等多種計數體系，在符號覆蓋度上非常豐富。
+            </p>
+          </div>
+          <a href="https://github.com/hshsilver/Huahua-Tally-Marks-Font" target="_blank" rel="noopener noreferrer"
+            class="btn btn-outline">
+            造訪 GitHub 倉庫 ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download & Usage Guide Section -->
+  <section id="download" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">字型下載與 Webfont 引入</h2>
+        <p class="section-desc">
+          免費開源下載全套桌面版與網頁版字型，支援個人與商業用途。
+        </p>
+      </div>
+
+      <div class="download-card">
+        <h3 class="download-card-title">📦 檔案清單與下載</h3>
+        <p class="download-card-desc">
+          專案目錄 <code>dist/</code> 中提供 8 款桌面用 OTF / TTF 字型；<code>docs/fonts/</code> 中提供 8 款現代 WOFF2 網頁字型。
+        </p>
+
+        <div class="download-grid">
+          <div class="download-item">
+            <div class="download-item-info">
+              <span class="download-badge badge-desktop">桌面安裝版</span>
+              <strong>正記體-宋體 (JhengJi Song)</strong>
+              <span class="download-meta">OTF 格式 · 推薦常用 Regular</span>
+            </div>
+            <a href="./dist/JhengJiSong-Regular.otf" download class="btn btn-primary btn-download">下載宋體 OTF</a>
+          </div>
+
+          <div class="download-item">
+            <div class="download-item-info">
+              <span class="download-badge badge-desktop">桌面安裝版</span>
+              <strong>正記體-楷體 (JhengJi Kai)</strong>
+              <span class="download-meta">TTF 格式 · 標準 Regular</span>
+            </div>
+            <a href="./dist/JhengJiKai-Regular.ttf" download class="btn btn-primary btn-download">下載楷體 TTF</a>
+          </div>
+
+          <div class="download-item">
+            <div class="download-item-info">
+              <span class="download-badge badge-web">網頁輕量版</span>
+              <strong>正記體-宋體 (WOFF2)</strong>
+              <span class="download-meta">極致 1.1 KB · 7 種字重</span>
+            </div>
+            <a href="./fonts/JhengJiSong-Regular.woff2" download class="btn btn-outline btn-download">下載宋體 WOFF2</a>
+          </div>
+
+          <div class="download-item">
+            <div class="download-item-info">
+              <span class="download-badge badge-web">網頁輕量版</span>
+              <strong>正記體-楷體 (WOFF2)</strong>
+              <span class="download-meta">極致 1.3 KB · 標準 Regular</span>
+            </div>
+            <a href="./fonts/JhengJiKai-Regular.woff2" download class="btn btn-outline btn-download">下載楷體 WOFF2</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style="background: #fff; border: 1px solid var(--border-color); border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-sm);">
+        <h3 style="margin-bottom: 12px; font-size: 20px;">💻 Webfont CSS 引入範例</h3>
+        <p style="color: var(--text-muted); font-size: 14px;">在您的網頁 CSS 中加入以下 <code>@font-face</code> 設定即可輕鬆使用：</p>
+
+        <div class="code-block">
+          <button class="copy-btn" data-target="cssCode">複製代碼</button>
+          <pre id="cssCode"><code>@font-face {
+  font-family: 'JhengJi Song';
+  src: url('fonts/JhengJiSong-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JhengJi Kai';
+  src: url('fonts/JhengJiKai-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* 在欲使用正字計數的標籤套用 */
+.tally {
+  font-family: 'JhengJi Song', serif;
+  font-size: 32px;
+}</code></pre>
+        </div>
+
+        <h4 style="margin-top: 24px; margin-bottom: 8px; font-size: 16px;">HTML 使用範例：</h4>
+        <div class="code-block">
+          <button class="copy-btn" data-target="htmlCode">複製代碼</button>
+          <pre id="htmlCode"><code>&lt;!-- 輸入 12345 就會直接呈現 1~5 畫正字！ --&gt;
+&lt;span class="tally"&gt;5553&lt;/span&gt; &lt;!-- 呈現為 3個正 + 1個3畫 (18) --&gt;
+&lt;span class="tally"&gt;𝍲𝍳𝍴𝍵𝍶&lt;/span&gt; &lt;!-- 亦可使用標準 Unicode 字符 --&gt;</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p style="margin-bottom: 8px;">
+        <strong>正記體 (JhengJi Fonts)</strong> · 基於思源宋體 (Noto Serif TC / Source Han Serif) 與全字庫正楷體重構製作。
+      </p>
+      <p style="font-size: 13px;">
+        依據 <a href="http://scripts.sil.org/OFL" target="_blank" rel="noopener noreferrer">SIL Open Font License 1.1</a>
+        開源發布 · 歡迎自由分享、使用與二次創作。
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
